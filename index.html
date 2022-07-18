@@ -7,14 +7,16 @@
       <title>Exercício JavaScript API</title>
       <link rel="stylesheet" href="style.css" />
     </head>
-    <body onload="updateDogImage()">
+    <body id="corpo">
       <header>
         <h1>Random Dogs</h1>
       </header>
       <section>
-        <div id="imagem"></div>
+        <div>
+          <img id="imagem" src="" />
+        </div>
         <div id="botao">
-          <button id="button" onclick="updateDogImage()">Random Dog</button>
+          <button id="button">Random Dog</button>
         </div>
       </section>
       <footer>Desenvolvido por: Vinícius Martins Cavalcanti</footer>
