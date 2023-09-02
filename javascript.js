@@ -18,11 +18,11 @@ const updateDogImage = async () => {
 
 const disableButton = () => {
   btn.disabled = true;
-  btn.innerHTML = 'Loading Dog';
+  btn.innerHTML = "<span style='color: darkgray'>Loading Dog</span>";
   setTimeout(() => {
     btn.disabled = false;
     btn.innerHTML = 'Random Dog';
-  }, 1500);
+  }, 1000);
 };
 
 btn.addEventListener('click', async () => {
